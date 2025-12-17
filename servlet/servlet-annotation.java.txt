@@ -1,0 +1,3 @@
+@WebServlet("/demo")
+public class DemoServlet extends HttpServlet {
+}

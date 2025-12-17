@@ -1,0 +1,8 @@
+EntityManagerFactory emf = Persistence.createEntityManagerFactory("app");
+EntityManager em = emf.createEntityManager();
+EntityTransaction et = em.getTransaction();
+
+et.begin();
+
+
+et.commit();

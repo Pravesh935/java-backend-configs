@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Servlet Web Application</title>
+</head>
+<body>
+
+
+<fieldset>
+<form action="registerstd" >
+ <h3>user info form</h3>
+ name: <input name="username"> 
+ <br> <br>
+ mobno: <input name="mobno"> 
+ <br> <br>
+ email: <input name="email"> 
+ 
+ <button type="submit">SUBMIT</button>
+ 
+ </form>
+</fieldset>
+
+
+</body>
+</html>

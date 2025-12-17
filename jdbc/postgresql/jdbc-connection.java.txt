@@ -1,0 +1,6 @@
+// JDBC Connection Template
+String url = "jdbc:postgresql://localhost:5432/DB_NAME";
+String username = "USERNAME";
+String password = "PASSWORD";
+
+Connection con = DriverManager.getConnection(url, username, password);
